@@ -9,11 +9,11 @@ pipeline {
 
   stages {
 
-    stage('Checkout') {
-      steps {
-        git branch: 'main', url: 'https://github.com/B-BRAHIM433/Spring-App-Deploy.git'
-      }
-    }
+    //stage('Checkout') {
+      //steps {
+        //git branch: 'main', url: 'https://github.com/B-BRAHIM433/Spring-App-Deploy.git'
+      //}
+    //}
 
     stage('Build JAR') {
       steps {
